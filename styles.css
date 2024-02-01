@@ -71,6 +71,12 @@ body {
     margin-top: 20px;
 }
 
+.hidden-message .subtext {
+    font-size: 14px; /* Adjust the font size as needed */
+    color: #888; /* Adjust the color as needed */
+    margin-top: 5px; /* Add some spacing between the main text and subtext */
+}
+
 .move {
     animation: moveNoMessage 0.5s linear;
 }
