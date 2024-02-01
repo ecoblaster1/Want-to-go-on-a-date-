@@ -23,6 +23,7 @@ function showMessage(response) {
     document.getElementById("question").textContent =
       "Nice try, but you can't escape that easily!";
     document.getElementById("name").style.display = "none";
+    document.querySelector(".subtext").style.display = "block";
 
     // Optional: You can also add a timeout to reset the position after a few seconds
     setTimeout(() => {
@@ -53,4 +54,5 @@ function resetNoButtonPosition() {
   document.getElementsByClassName("image")[0].src = "images/catflower.jpg";
   document.getElementById("question").textContent = "Would you like to go on a date?";
   document.getElementById("name").style.display = "block";
+  document.querySelector(".subtext").style.display = "none";
 }
