@@ -66,11 +66,15 @@ body {
 #no-button {
 }
 
+/* Updated styles for the "no-message" section */
 .hidden-message {
-    display: none;
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
+/* Add this style for the subtext */
 .hidden-message .subtext {
     font-size: 14px; /* Adjust the font size as needed */
     color: #888; /* Adjust the color as needed */
