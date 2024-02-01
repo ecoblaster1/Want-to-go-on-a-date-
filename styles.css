@@ -1,12 +1,12 @@
 body {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster', cursive; /* Change to a romantic cursive font */
     background-color: #ffdde1;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     height: 100vh;
     margin: 0;
-    background: url('images/dateBackground.jpg') repeat;
+    background: url('images/image.jpg') repeat;
     font-size: 35px;
     color: rgb(255, 0, 174);
 }
@@ -49,8 +49,7 @@ body {
     font-size: 26px;
     cursor: pointer;
     position: relative;
-    font-family: 'Lobster', cursive;
-    transition: background-color 0.3s ease;
+    font-family: 'Lobster', cursive; /* Change to a romantic cursive font */
 }
 
 .buttons button:hover {
@@ -63,23 +62,11 @@ body {
     flex-direction: row;
 }
 
-#no-button {
-}
+#no-button {}
 
-/* Updated styles for the "no-message" section */
 .hidden-message {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-/* Add this style for the subtext */
-.hidden-message .subtext {
-    font-size: 14px; /* Adjust the font size as needed */
-    color: #888; /* Adjust the color as needed */
-    margin-top: 5px; /* Add some spacing between the main text and subtext */
-    display: none; /* Initial style to hide the subtext */
+    display: none;
+    margin-top: 20px;
 }
 
 .move {
