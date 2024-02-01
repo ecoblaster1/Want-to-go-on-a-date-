@@ -21,7 +21,7 @@ function showMessage(response) {
 
     // Update text content and hide name message
     document.getElementById("question").textContent =
-      "Maybe next time! Let me know if you change your mind.";
+      "Nice try, but you can't escape that easily!";
     document.getElementById("name").style.display = "none";
 
     // Optional: You can also add a timeout to reset the position after a few seconds
