@@ -23,6 +23,7 @@ function showMessage(response) {
     document.getElementById("question").textContent =
       "Nice try, but you can't escape that easily!";
     document.getElementById("name").style.display = "none";
+    //Display the subtext immediately
     document.querySelector(".subtext").style.display = "block";
 
     // Optional: You can also add a timeout to reset the position after a few seconds
