@@ -27,7 +27,7 @@ function showMessage(response) {
     // Optional: You can also add a timeout to reset the position after a few seconds
     setTimeout(() => {
       resetNoButtonPosition();
-    }, 5000); // Adjust the time delay (in milliseconds) as per your requirement
+    }, 50000); // Adjust the time delay (in milliseconds) as per your requirement
   }
 
   if (response === "Yes") {
