@@ -21,7 +21,8 @@ function showMessage(response) {
 
     // Update text content and hide name message
     document.getElementById("question").textContent =
-      "Nice try, but you can't escape that easily!";
+      "Nice try, but you can't escape that easily!
+       Try clicking "No" again";
     document.getElementById("name").style.display = "none";
     //Display the subtext immediately
     document.querySelector(".subtext").style.display = "block";
