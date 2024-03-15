@@ -1,1 +1,1 @@
-I was inspired to make this to ask a crush out on a date using this quick little static site. I thought it would be a funny story to tell if it worked or not :D 
+I just made a short interactive static website to ask my crush out. She said yes :D 
